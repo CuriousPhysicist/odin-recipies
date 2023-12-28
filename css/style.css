@@ -31,9 +31,18 @@ img {
   object-fit: scale-down;
 }
 
+
 .recipe-card {
-  width: 75%;
+  max-width: 100%;
   margin: 0 auto;
+}
+
+@media screen and (min-width: 600px) {
+  .recipe-card {
+    max-width: 50%;
+    min-width: 600px;
+    margin: 0 auto;
+  }
 }
 
 .recipe-summary {
