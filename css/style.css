@@ -1,4 +1,9 @@
 body {
+  margin: 0px;
   background-color: lightgrey;
   font-family: cambria, garamond, serif;
+}
+
+h1 {
+  text-align: center;
 }
