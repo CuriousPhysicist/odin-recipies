@@ -1,6 +1,13 @@
+:root {
+  /* These are hex codes for a blue monochromatic pallet */
+  --text-color: #03045E; /* Dark Blue */
+  --line-color: #0077B6; /* Mid Blue */
+  --background-color: #CAF0F8; /* Pale Blue */
+}
+
 body {
-  background-color: lightgrey;
-  color: black;
+  background-color: var(--background-color);
+  color: var(--text-color);
   font-family: cambria, garamond, serif;
   margin: 0;
   max-width: 100vw;
@@ -23,7 +30,7 @@ nav div {
 }
 
 a {
-  color: black;
+  color: var(--text-color);
   text-decoration: none;
 }
 
@@ -54,7 +61,7 @@ img {
 }
 
 .recipe-preview {
-  border: solid 2px darkgrey;
+  border: solid 2px var(--line-color);
   border-radius: 10px;
   box-sizing: border-box;
   margin: 10px auto;
@@ -63,7 +70,7 @@ img {
 }
 
 .recipe-card {
-  border-bottom: dashed 2px darkgrey;
+  border-bottom: dashed 2px var(--line-color);
   margin: 0 auto;
   max-width: 100%;
 }
@@ -77,6 +84,6 @@ img {
 }
 
 .recipe-summary {
-  border-bottom: dashed 2px darkgrey;
+  border-bottom: dashed 2px var(--line-color);
   padding: 10px;
 }
