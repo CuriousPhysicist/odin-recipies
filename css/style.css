@@ -31,6 +31,15 @@ img {
   object-fit: scale-down;
 }
 
+li {
+  margin-bottom: 8px;
+}
+
+ol > li {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 16px;
+}
 
 .recipe-card {
   max-width: 100%;
