@@ -37,6 +37,12 @@ img {
   object-fit: scale-down;
 }
 
+.recipe-preview img {
+  width: 300px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
 li {
   margin-bottom: 8px;
 }
@@ -67,4 +73,7 @@ ol > li {
 
 .recipe-preview {
   border: solid 2px darkgrey;
+  width: 60%;
+  margin: 10px auto;
+  border-radius: 10px;
 }
