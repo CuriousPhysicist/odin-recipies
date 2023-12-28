@@ -30,3 +30,8 @@ img {
   width: 100%;
   object-fit: scale-down;
 }
+
+.recipe-card {
+  width: 75%;
+  margin: 0 auto;
+}
