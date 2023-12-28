@@ -47,5 +47,6 @@ img {
 
 .recipe-summary {
   padding: 10px;
+  border-bottom: dashed 2px darkgrey;
 }
 
