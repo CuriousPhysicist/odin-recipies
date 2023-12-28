@@ -13,7 +13,13 @@ h1, h2 {
   text-align: center;
 }
 
-nav > div {
+nav {
+  max-width: 50%;
+  min-width: 600px;
+  margin: 0 auto;
+}
+
+nav div {
   text-align: center;
   margin-bottom: 10px;
 }
@@ -59,3 +65,6 @@ ol > li {
   border-bottom: dashed 2px darkgrey;
 }
 
+.recipe-preview {
+  border: solid 2px darkgrey;
+}
